@@ -1,0 +1,70 @@
+/* completeDetails.css */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+  }
+  
+  .details-container {
+    width: 600px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .details-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .details-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .details-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .details-container input[type="text"],
+  .details-container input[type="email"] {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .details-container input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .details-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .details-container input[type="submit"],
+  .details-container button {
+    margin-top: 10px;
+    background-color: #007bff; /* Blue button */
+
+  }
+  
+  .details-container .already-user {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

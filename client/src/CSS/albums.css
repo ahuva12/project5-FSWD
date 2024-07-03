@@ -1,0 +1,107 @@
+/* CSS for Albums component */
+
+.albums-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .albums-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .albums-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .albums-container select,
+  .albums-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .albums-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .albums-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .albums-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .albums-container li {
+    margin-bottom: 20px;
+  }
+  
+  .albums-container li strong {
+    font-size: 18px;
+  }
+  
+  .albums-container li a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .albums-container li a:hover {
+    text-decoration: underline;
+  }
+  
+  .albums-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .albums-container form {
+    margin-top: 10px;
+  }
+  
+  .albums-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .albums-container form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .albums-container form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .albums-container form button:hover {
+    background-color: #218838;
+  }
+  

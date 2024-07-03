@@ -1,0 +1,106 @@
+/* PostList.css */
+
+/* Container styles */
+.post-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.post-list-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Search section styles */
+.post-list-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.post-list-container select, 
+.post-list-container input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.post-list-container input[type="text"] {
+  width: 200px;
+  margin-right: 10px;
+}
+
+/* List of posts styles */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.post-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.post-list li h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.post-list li p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.post-list li button {
+  padding: 6px 12px;
+  margin-top: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.post-list li button:hover {
+  background-color: #0056b3;
+}
+
+/* Form to add new post styles */
+.post-form {
+  margin-top: 20px;
+}
+
+.post-form input[type="text"],
+.post-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.post-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.post-form button:hover {
+  background-color: #218838;
+}
+
+.post-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
